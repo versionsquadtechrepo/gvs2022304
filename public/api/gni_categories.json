@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Her",
+      "slug": "her",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/her.jpg",
+        "original": "/assets/images/gi/cateory/her.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Him",
+      "slug": "him",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/him.jpg",
+        "original": "/assets/images/gi/cateory/him.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Birthday",
+      "slug": "birthday",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/birthday.jpg",
+        "original": "/assets/images/gi/cateory/birthday.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Roses",
+      "slug": "roses",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/roses.jpg",
+        "original": "/assets/images/gi/cateory/roses.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cake",
+      "slug": "cake",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/cake.jpg",
+        "original": "/assets/images/gi/cateory/cake.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Anniversary",
+      "slug": "anniversary",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/anniversary.jpg",
+        "original": "/assets/images/gi/cateory/anniversary.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "corporate",
+      "slug": "corporate",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/corporate.jpg",
+        "original": "/assets/images/gi/cateory/corporate.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Discounts",
+      "slug": "Discounts",
+      "productCount": 20,
+      "tags": [
+        "shovia",
+        "fusion",
+        "elegance",
+        "fashadil",
+        "blaze"
+      ],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/gi/cateory/discounts.jpg",
+        "original": "/assets/images/gi/cateory/discounts.jpg"
+      }
+    }
+  ]
+}

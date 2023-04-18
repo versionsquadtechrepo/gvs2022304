@@ -1,6 +1,7 @@
 import Text from '@components/ui/text'
 import Link from '@components/ui/link'
 import { useTranslation } from 'next-i18next'
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 interface Props {
   sectionHeading: string
@@ -13,7 +14,7 @@ const SectionHeader: React.FC<Props> = ({
   sectionHeading = 'text-section-title',
   categorySlug,
   className = 'pb-0.5 mb-4 md:mb-5 lg:mb-6 2xl:mb-7 3xl:mb-8',
-  textClassName = '',
+  textClassName = 'font-oswald',
 }) => {
   const { t } = useTranslation('common')
   return (
@@ -24,12 +25,15 @@ const SectionHeader: React.FC<Props> = ({
       {categorySlug && (
         <Link
           href={categorySlug}
-          className='text-xs lg:text-sm xl:text-base text-heading mt-0.5 lg:mt-1'
+          className='text-xs lg:text-sm xl:text-base text-giRed mt-0.5 lg:mt-1'
         >
           {t('text-see-all-product')}
+
         </Link>
+
       )}
-    </div>
+
+    </div >
   )
 }
 

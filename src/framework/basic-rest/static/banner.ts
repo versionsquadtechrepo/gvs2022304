@@ -1459,9 +1459,9 @@ export const ancientHeroBanner = [
     slug: "winter-collection",
     image: {
       mobile: {
-        url: "/assets/images/banner/ancient/hero-banner-mobile-1.png",
+        url: "/assets/images/gi/heroBanners/hero-1.png",
         width: 563,
-        height: 331,
+        height: 590,
       },
       desktop: {
         url: "/assets/images/banner/ancient/hero-banner-1.jpg",
@@ -1476,9 +1476,9 @@ export const ancientHeroBanner = [
     slug: "winter-collection",
     image: {
       mobile: {
-        url: "/assets/images/banner/ancient/hero-banner-mobile-2.png",
+        url: "/assets/images/gi/heroBanners/hero-3.png",
         width: 563,
-        height: 331,
+        height: 590,
       },
       desktop: {
         url: "/assets/images/banner/ancient/hero-banner-2.jpg",
@@ -1493,9 +1493,9 @@ export const ancientHeroBanner = [
     slug: "winter-collection",
     image: {
       mobile: {
-        url: "/assets/images/banner/ancient/hero-banner-mobile-3.png",
+        url: "/assets/images/gi/heroBanners/hero-5.png",
         width: 563,
-        height: 331,
+        height: 590,
       },
       desktop: {
         url: "/assets/images/banner/ancient/hero-banner-3.jpg",
@@ -1513,7 +1513,7 @@ export const ancientBanner1 = [
     slug: "winter-collection",
     image: {
       mobile: {
-        url: "/assets/images/banner/ancient/banner-1-mobile-m.png",
+        url: "/assets/images/gi/heroBanners/hero-7-1.png",
         width: 1100,
         height: 590,
       },

@@ -28,6 +28,10 @@ module.exports = {
 				facebookHover: '#395fad',
 				google: '#4285F4',
 				googleHover: '#307bf9',
+				gititle: '#121212',
+				giRed: '#CB1B23',
+				giBG: '#F8F8F8',
+				giFontColor: '#A3A3A3',
 				gray: {
 					50: '#FBFBFB',
 					100: '#F1F1F1',
@@ -86,9 +90,11 @@ module.exports = {
 			bottomNavigation: '0 -2px 3px rgba(0, 0, 0, 0.06)',
 			cookies: '0 -2px 3px rgba(0, 0, 0, 0.04)',
 			avatar: '0px 15px 30px rgba(0, 0, 0, 0.16)',
+			categoryBox: '0px 0px 7px rgba(0, 0, 0, 0.1);'
 		},
 		fontFamily: {
-			body: ["'Open Sans', sans-serif"],
+			body: ["'Lato', sans-serif"],
+			oswald: ["'Oswald',sans-serif"],
 			satisfy: ["'Satisfy', cursive"],
 			segoe: ["'Segoe UI', sans-serif"],
 		},

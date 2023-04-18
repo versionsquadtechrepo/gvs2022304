@@ -32,8 +32,8 @@ export const siteSettings = {
     address: '',
   },
   logo: {
-    url: '/assets/images/logo.svg',
-    alt: 'ChawkBazar',
+    url: '/assets/images/gi_logo.svg',
+    alt: 'Giftsnideas',
     href: '/',
     width: 95,
     height: 30,

@@ -20,9 +20,9 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
 						content: 'width=device-width, initial-scale=1.0',
 					},
 				]}
-				title="ChawkBazar React - React Next E-commerce Template"
-				description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-				canonical="https://chawkbazar.vercel.app/"
+				title="Online Gift Delivery | Buy/Send Gifts Same Day Delivery | GiftsnIdeas"
+				description="Online Gift Delivery | Buy/Send Gifts Same Day Delivery | GiftsnIdeas"
+				canonical="https://www.giftsnideas.com/"
 				openGraph={{
 					url: 'https://chawkbazar.vercel.app',
 					title: 'ChawkBazar React - React Next E-commerce Template',
@@ -46,7 +46,7 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
 			/>
 			<Header />
 			<main
-				className="relative flex-grow"
+				className="relative flex-grow bg-gray-200"
 				style={{
 					minHeight: '-webkit-fill-available',
 					WebkitOverflowScrolling: 'touch',

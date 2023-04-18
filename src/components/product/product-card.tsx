@@ -18,15 +18,15 @@ interface ProductProps {
   contactClassName?: string;
   imageContentClassName?: string;
   variant?:
-    | "grid"
-    | "gridSlim"
-    | "list"
-    | "listSmall"
-    | "gridModern"
-    | "gridModernWide"
-    | "gridTrendy"
-    | "rounded"
-    | "circle";
+  | "grid"
+  | "gridSlim"
+  | "list"
+  | "listSmall"
+  | "gridModern"
+  | "gridModernWide"
+  | "gridTrendy"
+  | "rounded"
+  | "circle";
   imgWidth?: number | string;
   imgHeight?: number | string;
   imgLoading?: "eager" | "lazy";
@@ -72,8 +72,7 @@ const ProductCard: FC<ProductProps> = ({
   return (
     <div
       className={cn(
-        `group box-border overflow-hidden flex ${
-          !disableBorderRadius && "rounded-md"
+        `group box-border overflow-hidden flex ${!disableBorderRadius && "rounded-md"
         } cursor-pointer`,
         {
           "pe-0 pb-2 lg:pb-3 flex-col items-start transition duration-200 ease-in-out transform hover:-translate-y-1 md:hover:-translate-y-1.5 hover:shadow-product":
@@ -125,8 +124,7 @@ const ProductCard: FC<ProductProps> = ({
           quality={100}
           alt={product?.name || "Product Image"}
           className={cn(
-            `bg-gray-300 object-cover ${
-              !disableBorderRadius && "rounded-s-md"
+            `bg-gray-300 object-cover ${!disableBorderRadius && "rounded-s-md"
             }`,
             {
               "w-full transition duration-200 ease-in":
@@ -200,25 +198,25 @@ const ProductCard: FC<ProductProps> = ({
         {(variant === "gridModern" ||
           variant === "gridModernWide" ||
           variant === "gridTrendy") && (
-          <div className="py-2 flex items-center gap-x-2">
-            <svg
-              className="w-4 h-4 sm:w-6 sm:h-6 text-[#FBD103]"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-            </svg>
-            <span className="text-xs sm:text-sm text-heading font-semibold truncate">
-              4.5
-            </span>
-            {product.quantity === 0 && (
-              <span className="text-xs sm:text-sm leading-5 ps-3 font-semibold text-[#EF4444]">
-                Out of stock
+            <div className="py-2 flex items-center gap-x-2">
+              <svg
+                className="w-4 h-4 sm:w-6 sm:h-6 text-[#FBD103]"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+              <span className="text-xs sm:text-sm text-heading font-semibold truncate">
+                4.5
               </span>
-            )}
-          </div>
-        )}
+              {product.quantity === 0 && (
+                <span className="text-xs sm:text-sm leading-5 ps-3 font-semibold text-[#EF4444]">
+                  Out of stock
+                </span>
+              )}
+            </div>
+          )}
         {/* space-y-1 md:space-x-2.5 lg:space-x-2.5 xl:space-x-2.5 2xl:space-x-2.5  */}
         {!!(showCategory || showRating) && (
           <div className="flex flex-col md:flex-row md:items-center lg:flex-row xl:flex-row 2xl:flex-row  mb-0.5 items-start">
@@ -238,11 +236,12 @@ const ProductCard: FC<ProductProps> = ({
             {!!showRating && <RatingDisplay rating={2.5} />}
           </div>
         )}
+
         <h2
-          className={cn("truncate mb-1", {
+          className={cn("text-center  mb-1", {
             "text-sm md:text-base": variant === "grid",
             "font-semibold": demoVariant !== "ancient",
-            "font-bold": demoVariant === "ancient",
+            "font-normal": demoVariant === "ancient",
             "text-xs sm:text-sm md:text-base":
               variant === "gridModern" ||
               variant === "gridModernWide" ||
@@ -264,31 +263,54 @@ const ProductCard: FC<ProductProps> = ({
           </p>
         )}
         <div
-          className={`font-semibold text-sm sm:text-base mt-1.5 space-s-2 ${
-            variant === "grid"
-              ? "lg:text-lg lg:mt-2.5"
-              : "sm:text-xl md:text-base lg:text-xl md:mt-2.5 2xl:mt-3"
-          }
-          ${
-            variant === "gridModern" ||
-            variant === "gridModernWide" ||
-            variant === "gridTrendy"
+          className={`text-center text-sm font-giFontColor sm:text-base mt-1.5 space-s-2 ${variant === "grid"
+            ? "lg:text-lg lg:mt-2.5"
+            : "sm:text-xl md:text-base lg:text-xl md:mt-2.5 2xl:mt-3"
+            }
+          ${variant === "gridModern" ||
+              variant === "gridModernWide" ||
+              variant === "gridTrendy"
               ? "flex flex-col-reverse !space-s-0 !mt-auto"
               : ""
-          } ${bgTransparent ? "text-white" : "text-heading"}`}
+            } ${bgTransparent ? "text-white" : "font-giFontColor"}`}
         >
           <span
-            className={`inline-block ${
-              demoVariant === "ancient" && "font-bold text-gray-900 text-lg"
-            }`}
+            className={`text-center inline-block ${demoVariant === "ancient" && "font-normal font-giFontColor text-sm"
+              }`}
+          >
+            <Image src={'/assets/images/gi/icons/delivery.png'} quality={100} width="12.51" height={11} /> {'5 March'}
+          </span>
+          {discount && (
+            <del
+              className={`sm:text-base font-normal ${bgTransparent ? "text-white/70" : "text-gray-800"
+                }`}
+            >
+              {basePrice}
+            </del>
+          )}
+        </div>
+        <div
+          className={`text-center text-text-sm sm:text-base mt-1.5 space-s-2 ${variant === "grid"
+            ? "lg:text-lg lg:mt-2.5"
+            : "sm:text-xl md:text-base lg:text-xl md:mt-2.5 2xl:mt-3"
+            }
+          ${variant === "gridModern" ||
+              variant === "gridModernWide" ||
+              variant === "gridTrendy"
+              ? "flex flex-col-reverse !space-s-0 !mt-auto"
+              : ""
+            } ${bgTransparent ? "text-white" : "font-giRed"}`}
+        >
+          <span
+            className={`text-center inline-block ${demoVariant === "ancient" && "font-normal text-giRed text-sm"
+              }`}
           >
             {price}
           </span>
           {discount && (
             <del
-              className={`sm:text-base font-normal ${
-                bgTransparent ? "text-white/70" : "text-gray-800"
-              }`}
+              className={`sm:text-base font-normal ${bgTransparent ? "text-white/70" : "text-gray-800"
+                }`}
             >
               {basePrice}
             </del>

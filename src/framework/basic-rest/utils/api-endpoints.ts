@@ -6,6 +6,7 @@ export const API_ENDPOINTS = {
   CATEGORIES: '/categories.json',
   CATEGORIES_2: '/categories.json',
   CATEGORIES_ANCIENT: '/categories_ancient.json',
+
   FEATURED_CATEGORIES: '/featured_categories.json',
   COLLECTIONS: '/collections.json',
   BRANDS: '/brands.json',
@@ -30,4 +31,5 @@ export const API_ENDPOINTS = {
   SEARCH: '/search.json',
   ORDERS: '/orders.json',
   ORDER: '/order.json',
+  GNI_CATEGORIES: '/gni_categories.json',
 };

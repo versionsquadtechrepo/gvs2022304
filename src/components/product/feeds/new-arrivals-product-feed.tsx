@@ -29,13 +29,14 @@ export default function NewArrivalsProductFeed({
       hideProductDescription={hideProductDescription}
       showCategory={showCategory}
       showRating={showRating}
-      sectionHeading="text-new-arrivals"
+      sectionHeading="FEATURED PRODUCTS"
       products={data}
       loading={isLoading}
       error={error?.message}
       uniqueKey="new-arrivals"
       demoVariant={demoVariant}
       disableBorderRadius={disableBorderRadius}
+      categorySlug='featured-products'
     />
   );
 }
