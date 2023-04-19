@@ -25,10 +25,10 @@ import { SneakerIcon } from '@components/icons/sneaker-icon';
 
 export const siteSettings = {
   name: 'ChawkBazar',
-  description: 'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
+  description: 'SEND GIFTS ONLINE - INTERNATIONAL GIFTS SAME DAY DELIVERY',
   author: {
-    name: 'RedQ, Inc.',
-    websiteUrl: 'https://redq.io',
+    name: 'Gifting Inc.',
+    websiteUrl: 'https://www.giftinginc.com',
     address: '',
   },
   logo: {

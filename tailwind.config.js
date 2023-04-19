@@ -11,6 +11,9 @@ module.exports = {
 			'3xl': '1780px',
 		},
 		extend: {
+			boxShadow: {
+				'3xl': '0px 0px 13px rgba(0, 0, 0, 0.06);',
+			  },
 			colors: {
 				body: '#5A5A5A',
 				heading: '#212121',

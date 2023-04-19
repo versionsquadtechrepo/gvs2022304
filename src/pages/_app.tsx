@@ -13,6 +13,9 @@ import { appWithTranslation } from 'next-i18next';
 import { DefaultSeo } from '@components/common/default-seo';
 
 // Load Open Sans and satisfy typeface font
+
+import '@fontsource/oswald/500.css';
+
 import '@fontsource/open-sans';
 import '@fontsource/open-sans/600.css';
 import '@fontsource/open-sans/700.css';

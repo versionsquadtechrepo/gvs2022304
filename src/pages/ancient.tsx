@@ -17,9 +17,12 @@ import DownloadApps from '@components/common/download-apps';
 import CategoryBlock from '@containers/category-block';
 import ProductsFlashSaleBlock from '@containers/product-flash-sale-block';
 import HireDesignerAncient from '@containers/buy-designer-ancient';
+import BannerBlockServices from '@containers/banner-block-services';
+import RecentProductFeed from '@components/product/feeds/recent-product-feed';
+import BestSellarsProductFeed from '@components/product/feeds/best-sellars-product-feed';
 
 export default function Ancient() {
-  const sectionCommonStyle = 'mb-7 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-[75px]';
+  const sectionCommonStyle = 'mb-7 mt-7 pb-4 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-[75px]';
   return (
     <>
       <HeroSlider
@@ -29,10 +32,8 @@ export default function Ancient() {
         className={sectionCommonStyle}
         buttonGroupClassName="hidden"
       />
-
-
-      <Container>
-        <div className='text-title1 font-medium leading-3 grid grid-cols-4 gap-6 mb-10 md:mb-11 lg:mb-12 xl:mb-14 lg:pb-1 xl:pb-0 justify-items-center '>
+<div className='bg-grey-200 px-4 mb-2'>
+        <div className=' text-title1 font-medium leading-3 grid grid-cols-4 gap-6 mb-10 md:mb-11 lg:mb-12 xl:mb-14 lg:pb-1 xl:pb-0 justify-items-center '>
           <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2 '>
             <div><img src='/assets/images/gi/category/her.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>For Her</span></div>
@@ -67,6 +68,11 @@ export default function Ancient() {
           </div>
 
         </div>
+        </div>
+
+      <Container>
+        
+       
 
         <NewArrivalsProductFeed
           demoVariant="ancient"
@@ -76,52 +82,28 @@ export default function Ancient() {
           disableBorderRadius={true}
           className={sectionCommonStyle}
         />
-        <CategoryBlock
-          type="rounded"
-          sectionHeading="Browse Categories"
-          roundedItemCount={5}
-          roundedSpaceBetween={8}
-          imgSize="large"
-          demoVariant="ancient"
-          disableBorderRadius={true}
-          className={`${sectionCommonStyle} lg:pb-1 xl:pb-0`}
-        />
+        
 
-        <NewArrivalsProductFeed
-          demoVariant="ancient"
-          hideProductDescription={true}
-          showCategory={true}
-          showRating={true}
-          disableBorderRadius={true}
-          className={sectionCommonStyle}
-        />
+        
 
-        <BannerBlockAncient
+        <BannerBlockServices
           disableBorderRadius={true}
           largeFirst={true}
           dataVariant="two"
           demoVariant="ancient"
-          className={sectionCommonStyle}
+          className={sectionCommonStyle + ' g-service-section' }
         />
 
-        <ProductsFeatured
-          sectionHeading="text-featured-products"
-          limit={4}
-          variant="modern"
-          hideBanner={true}
+        <BestSellarsProductFeed
           demoVariant="ancient"
+          hideProductDescription={true}
+          showCategory={false}
+          showRating={false}
           disableBorderRadius={true}
           className={sectionCommonStyle}
         />
-
-        <BannerBlockAncient
-          // className={`${sectionCommonStyle} lg:pb-1 xl:pb-0`}
-          disableBorderRadius={true}
-          demoVariant="ancient"
-          spaceBetween={10}
-          className={sectionCommonStyle}
-        />
-
+      
+       
         <BrandBlock
           disableBorderRadius={true}
           sectionHeading="text-top-brands"
@@ -130,38 +112,20 @@ export default function Ancient() {
           className={'mb-[14px] md:mb-6 lg:mb-7 xl:mb-8 2xl:mb-[45px]'}
         />
 
-        <ProductsFlashSaleBlock
-          itemVariant="listSmall"
-          disableSectionBorder={true}
-          disableSectionPadding={true}
-          hideCountdown={true}
-          limit={8}
-          TwoXlCols={4}
-          demoVariant="ancient"
-          disableBorderRadius={true}
-          className={sectionCommonStyle}
-          bgGray={true}
-        />
+       
       </Container>
 
-      <HireDesignerAncient />
+      
 
       <Container>
-        <PopularProductFeed disableBorderRadius={true} demoVariant="ancient" className={sectionCommonStyle} />
-
-        <DownloadApps disableBorderRadius={true} className={`bg-app-pattern ${sectionCommonStyle}`} variant="ancient" />
-
-        <TestimonialCarousel
-          sectionHeading="text-testimonial"
-          type="list"
-          className="relative mb-12 md:mb-14 xl:mb-16"
-          disableBoarderRadius={true}
-          reduceCardSpacing={true}
-          demoVariant="ancient"
-        />
-
-        <Instagram disableContainerBorderRadius={true} className={`mb-11 lg:mb-12 xl:mb-14 2xl:mb-[75px] md:gap-[7px]`} />
-
+       
+       
+       <TestimonialCarousel
+					sectionHeading="text-testimonial"
+					type="list"
+					className="relative mb-12  md:mb-14 xl:mb-16 g-customer-testimonials"
+				/>
+       
         <Subscription
           disableBorderRadius={true}
           className="bg-opacity-0 px-5 sm:px-16 xl:px-0 mb-12 md:mb-14 xl:mb-16 !py-0 !md:py-0 !lg:py-0"

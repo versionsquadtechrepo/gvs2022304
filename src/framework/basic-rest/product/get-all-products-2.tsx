@@ -10,7 +10,7 @@ export const fetchProducts = async ({ queryKey }: any) => {
 }
 export const useProductsQuery = (options: QueryOptionsType) => {
   return useQuery<Product[], Error>(
-    [API_ENDPOINTS.PRODUCTS_2, options],
+    [API_ENDPOINTS.NEW_ARRIVAL_PRODUCTS_ANCIENT, options],
     fetchProducts
   )
 }

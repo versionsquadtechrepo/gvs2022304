@@ -926,6 +926,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.13.tgz#2c99e4c055d129a75f14c11b77d040282e0388b8"
   integrity sha512-/UzqP7ZFk145XAq8KG4pvFPP7UQhtreDGXgqXZjagCDreKxcrhwn/x7DYz9rPcycWkLUVApIybcoczGZiM0cRg==
 
+"@fontsource/oswald@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/oswald/-/oswald-4.5.12.tgz#9f42cb91591783ec1dd537df0507e7f29aa663fb"
+  integrity sha512-UAduJgOpCQzf+SnuatQ7ANWRIGPD2GXh3CfvJ4YTlbhGM0bQYCwHL/5u+YFjZzidBMXspzV/k33PPxwOrmuaew==
+
 "@fontsource/satisfy@^4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@fontsource/satisfy/-/satisfy-4.5.6.tgz#dee0e5289a07089d9428ded22b920a9f0001c295"

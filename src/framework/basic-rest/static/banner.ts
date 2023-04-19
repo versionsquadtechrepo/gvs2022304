@@ -1579,3 +1579,59 @@ export const ancientBanner2 = [
     },
   },
 ];
+export const gni_services = [
+  {
+    id: 1,
+    title: "Free Shipping",
+    desc:"ON ALL ORDERS ACROSS 12270 CITIES BEYOND 6 DAYS*",
+    slug: "winter-collection",
+    image: {
+      mobile: {
+        url: "/assets/images/gi/icons/free-shipping.svg",
+        width: 1100,
+        height: 590,
+      },
+      desktop: {
+        url: "/assets/images/banner/ancient/free-shipping.svg",
+        width: 900,
+        height: 380,
+      },
+    },
+  },
+  {
+    id: 1,
+    title: "24/7 support",
+    desc:"ON ALL ORDERS ACROSS 12270 CITIES BEYOND 6 DAYS*",
+    slug: "winter-collection",
+    image: {
+      mobile: {
+        url: "/assets/images/gi/icons/customer-support.svg",
+        width: 1100,
+        height: 590,
+      },
+      desktop: {
+        url: "/assets/images/banner/ancient/customer-support.svg",
+        width: 900,
+        height: 380,
+      },
+    },
+  },
+  {
+    id: 1,
+    title: "100% refund",
+    desc:"ON ALL ORDERS ACROSS 12270 CITIES BEYOND 6 DAYS*",
+    slug: "winter-collection",
+    image: {
+      mobile: {
+        url: "/assets/images/gi/icons/refund.svg",
+        width: 1100,
+        height: 590,
+      },
+      desktop: {
+        url: "/assets/images/banner/ancient/refund.svg",
+        width: 900,
+        height: 380,
+      },
+    },
+  },
+];

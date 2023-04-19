@@ -38,7 +38,7 @@ const Header: React.FC = () => {
   return (
     <>
       <header id="siteHeader" ref={siteHeaderRef} className={headerCss}>
-        <div className={'innerSticky text-gray-700 body-font fixed ' + (router.pathname.indexOf('ancient') > 0 ? '' : 'bg-white') + ' w-full h-16 sm:h-20 lg:h-24 z-20 px-4 md:px-8 lg:px-6 transition duration-200 ease-in-out'}>
+        <div className={'header-main innerSticky text-gray-700 body-font fixed ' + (router.pathname.indexOf('ancient') > 0 ? '' : 'bg-white') + ' w-full h-16 sm:h-20 lg:h-24 z-20 px-4 md:px-8 lg:px-6 transition duration-200 ease-in-out'}>
           <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full w-full">
             <Logo />
 
@@ -86,8 +86,8 @@ const Header: React.FC = () => {
           <div className="relative mb-6">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
               <svg fill="none" className="w-5 h-5 text-gray-500 dark:text-gray-400" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path>
               </svg>
             </div>
             <input type="text" id="input-group-1" className="bg-white border h-12 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select City" defaultValue={'Hyderabad, Telangana, India'} />
