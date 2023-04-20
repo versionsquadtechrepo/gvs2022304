@@ -20,7 +20,7 @@ const year = new Date().getFullYear()
 const Copyright: React.FC<CopyrightProps> = ({ payment, variant }) => {
   const { t } = useTranslation('footer')
   return (
-    <div className='border-t border-gray-300 pt-5 pb-16 sm:pb-20 md:pb-5 mb-2 sm:mb-0'>
+    <div className='border-t border-gray-300 pt-5 pb-2 sm:pb-20 md:pb-5 mb-2 sm:mb-0'>
       <Container
         className={cn(
           'flex flex-col-reverse md:flex-row text-center md:justify-between',

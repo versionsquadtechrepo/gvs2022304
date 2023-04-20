@@ -51,6 +51,7 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
 		document.documentElement.dir = dir;
 	}, [dir]);
 	const Layout = (Component as any).Layout || Noop;
+	
 
 	return (
 		<AnimatePresence mode="wait" onExitComplete={handleExitComplete}>

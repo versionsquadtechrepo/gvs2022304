@@ -20,9 +20,10 @@ import HireDesignerAncient from '@containers/buy-designer-ancient';
 import BannerBlockServices from '@containers/banner-block-services';
 import RecentProductFeed from '@components/product/feeds/recent-product-feed';
 import BestSellarsProductFeed from '@components/product/feeds/best-sellars-product-feed';
+import Link from '@components/ui/link';
 
 export default function Ancient() {
-  const sectionCommonStyle = 'mb-7 mt-7 pb-4 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-[75px]';
+  const sectionCommonStyle = 'mb-7 pb-4 md:mb-10 lg:mb-12 xl:mb-14 2xl:mb-[75px]';
   return (
     <>
       <HeroSlider
@@ -35,8 +36,11 @@ export default function Ancient() {
 <div className='bg-grey-200 px-4 mb-2'>
         <div className=' text-title1 font-medium leading-3 grid grid-cols-4 gap-6 mb-10 md:mb-11 lg:mb-12 xl:mb-14 lg:pb-1 xl:pb-0 justify-items-center '>
           <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2 '>
+          <Link href={'gifts'}>
+
             <div><img src='/assets/images/gi/category/her.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>For Her</span></div>
+            </Link>
           </div>
           <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
             <div><img src='/assets/images/gi/category/him.svg' className='h-8 w-8' /></div>

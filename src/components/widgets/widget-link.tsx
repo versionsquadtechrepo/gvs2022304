@@ -31,28 +31,24 @@ const WidgetLink: FC<Props> = ({ className, data }) => {
     >
       {!data?.isCompanyIntroduction ? (
         <>
-          <h4 className='text-heading text-sm md:text-base xl:text-lg font-semibold mb-5 2xl:mb-6 3xl:mb-7'>
-            {t(`${widgetTitle}`)}
-          </h4>
-          <ul className='text-xs lg:text-sm text-body flex flex-col space-y-3 lg:space-y-3.5'>
+         
+          <div className='text-xs lg:text-sm text-body space-y-3 lg:space-y-3.5 flex flex-row '>
             {lists.map((list) => (
-              <li
+              <div 
                 key={`widget-list--key${list.id}`}
-                className='flex items-baseline'
+                className='w-10 h-10'
               >
+                
+                <Link href={list.path ? list.path : '#!'}>
                 {list.icon && (
-                  <span className='me-3 relative top-0.5 lg:top-1 text-sm lg:text-base'>
+                  <span className='me-3 relative top-0.5 lg:top-1 text-sm lg:text-base w-10 h-10'>
                     {list.icon}
                   </span>
                 )}
-                <Link href={list.path ? list.path : '#!'}>
-                  <a className='transition-colors duration-200 hover:text-black'>
-                    {t(`${list.title}`)}
-                  </a>
                 </Link>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </>
       ) : (
         <div className='me-4 flex flex-col space-y-7 lg:space-y-7.5'>

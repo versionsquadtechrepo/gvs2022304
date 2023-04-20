@@ -24,6 +24,8 @@ export const API_ENDPOINTS = {
   NEW_ARRIVAL_PRODUCTS: '/products_new_arrival.json',
   POPULAR_PRODUCTS: '/products_popular.json',
   NEW_ARRIVAL_PRODUCTS_ANCIENT: '/api/products_new_arrival.json',
+  NEW_ALL_ARRIVAL_PRODUCTS_ANCIENT: '/api/products_all_new_arrival.json',
+
   FLASH_SALE_PRODUCTS: '/products_flash_sale.json',
   FLASH_SALE_PRODUCTS_ANCIENT: '/products_flash_sale_ancient.json',
   SHOPS: '/shops.json',

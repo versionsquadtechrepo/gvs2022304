@@ -9,6 +9,7 @@ import { addActiveScroll } from '@utils/add-active-scroll';
 import dynamic from 'next/dynamic';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 import MenuIcon from '@components/icons/menu-icon';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
@@ -19,6 +20,7 @@ const CartButton = dynamic(() => import('@components/cart/cart-button'), {
 
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
 const { site_header } = siteSettings;
+
 const Header: React.FC = () => {
   const router = useRouter();
   const headerCss = router.pathname.indexOf('ancient') > 0 ? 'w-full h-28 sm:h-20 lg:h-24 absolute z-20' : 'w-full h-28 sm:h-20 lg:h-24 relative z-20'
@@ -26,9 +28,17 @@ const Header: React.FC = () => {
   const { t } = useTranslation('common');
   const siteHeaderRef = useRef() as DivElementRef;
   addActiveScroll(siteHeaderRef);
-
+  useEffect(()=>{
+    setTimeout(()=>{
+      selectCityPopUp()
+    }, 200)
+  }, [])
   function handleLogin() {
     setModalView('LOGIN_VIEW');
+    return openModal();
+  }
+  function selectCityPopUp() {
+    setModalView('SELECT_CITY');
     return openModal();
   }
   function handleMobileMenu() {
@@ -37,6 +47,7 @@ const Header: React.FC = () => {
 
   return (
     <>
+      
       <header id="siteHeader" ref={siteHeaderRef} className={headerCss}>
         <div className={'header-main innerSticky text-gray-700 body-font fixed ' + (router.pathname.indexOf('ancient') > 0 ? '' : 'bg-white') + ' w-full h-16 sm:h-20 lg:h-24 z-20 px-4 md:px-8 lg:px-6 transition duration-200 ease-in-out'}>
           <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full w-full">

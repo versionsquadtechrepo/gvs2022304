@@ -24,7 +24,7 @@ import { SunglassIcon } from '@components/icons/sunglass-icon';
 import { SneakerIcon } from '@components/icons/sneaker-icon';
 
 export const siteSettings = {
-  name: 'ChawkBazar',
+  name: 'Giftsnideas',
   description: 'SEND GIFTS ONLINE - INTERNATIONAL GIFTS SAME DAY DELIVERY',
   author: {
     name: 'Gifting Inc.',

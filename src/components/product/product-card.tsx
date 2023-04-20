@@ -72,7 +72,7 @@ const ProductCard: FC<ProductProps> = ({
   return (
     <div
       className={cn(
-        `group box-border overflow-hidden flex ${!disableBorderRadius && "rounded-md"
+        `gi-border-shadow group box-border overflow-hidden flex ${!disableBorderRadius && "rounded-md"
         } cursor-pointer`,
         {
           "pe-0 pb-2 lg:pb-3 flex-col items-start transition duration-200 ease-in-out transform hover:-translate-y-1 md:hover:-translate-y-1.5 hover:shadow-product":
@@ -80,7 +80,7 @@ const ProductCard: FC<ProductProps> = ({
             variant === "gridModern" ||
             variant === "gridModernWide" ||
             variant === "gridTrendy",
-          " bg-white":
+          " bg-gray-200":
             (variant === "grid" && !bgGray) ||
             (variant === "gridModern" && !bgGray) ||
             (variant === "gridModernWide" && !bgGray) ||

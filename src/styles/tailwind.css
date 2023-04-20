@@ -340,7 +340,7 @@
 }
 
 /* Breadcrumb truncate last child */
-.chawkbazarBreadcrumb li:last-child {
+.GiftsnideasBreadcrumb li:last-child {
   @apply truncate;
 }
 
@@ -372,7 +372,7 @@
   background-color: white;
 
 }
-.g-service-section .carouselWrapper,.g-customer-testimonials .carouselWrapper {
+.g-service-section .carouselWrapper,.g-customer-testimonials .carouselWrapper,.gi-border-shadow {
   background: #FFFFFF;
 box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.06);
 border-radius: 10px;
