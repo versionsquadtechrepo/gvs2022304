@@ -59,7 +59,7 @@ const HeroSlider: React.FC<Props> = ({
           >
             <BannerCard
               banner={banner}
-              href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
+              href={`gifts`}
               variant={variantRounded}
             />
           </SwiperSlide>

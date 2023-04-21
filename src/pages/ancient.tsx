@@ -35,42 +35,41 @@ export default function Ancient() {
       />
 <div className='bg-grey-200 px-4 mb-2'>
         <div className=' text-title1 font-medium leading-3 grid grid-cols-4 gap-6 mb-10 md:mb-11 lg:mb-12 xl:mb-14 lg:pb-1 xl:pb-0 justify-items-center '>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2 '>
-          <Link href={'gifts'}>
+        <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2 '>
+          <Link href={'gifts'} className='justify-items-center grid place-content-center' >
 
             <div><img src='/assets/images/gi/category/her.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>For Her</span></div>
             </Link>
           </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/him.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>For Him</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/birthday.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Birthday</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/roses.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Roses</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/cake.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Cake</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/anniversary.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Anniversary</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/corporate.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Corporate</span></div>
-          </div>
-          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 p-4 justify-items-center inline-block align-baseline gap-2'>
+          </Link></div>
+          <div className='bg-white h-20 w-20 shadow-categoryBox rounded-xl text-center grid grid-cols-1 place-content-center p-4 justify-items-center inline-block align-baseline gap-2'><Link href={'gifts'} className='justify-items-center grid place-content-center'>
             <div><img src='/assets/images/gi/category/discounts.svg' className='h-8 w-8' /></div>
             <div><span className='text-xs'>Discounts</span></div>
-          </div>
-
+         </Link> </div>
         </div>
         </div>
 

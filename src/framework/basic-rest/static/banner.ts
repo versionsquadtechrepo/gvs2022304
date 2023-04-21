@@ -1464,7 +1464,7 @@ export const ancientHeroBanner = [
         height: 590,
       },
       desktop: {
-        url: "/assets/images/banner/ancient/hero-banner-1.jpg",
+        url: "/assets/images/gi/heroBanners/desktop/hero-1.png",
         width: 1920,
         height: 900,
       },
@@ -1481,7 +1481,7 @@ export const ancientHeroBanner = [
         height: 590,
       },
       desktop: {
-        url: "/assets/images/banner/ancient/hero-banner-2.jpg",
+        url: "/assets/images/gi/heroBanners/desktop/hero-3.png",
         width: 1920,
         height: 900,
       },
@@ -1498,7 +1498,7 @@ export const ancientHeroBanner = [
         height: 590,
       },
       desktop: {
-        url: "/assets/images/banner/ancient/hero-banner-3.jpg",
+        url: "/assets/images/gi/heroBanners/desktop/hero-5.png",
         width: 1920,
         height: 900,
       },

@@ -6,8 +6,8 @@
       "slug": "adidas",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/adidas.jpg",
-        "original": "/assets/images/brands/ancient/adidas.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-1.png",
+        "original": "/assets/images/gi/brands/brand-1.png"
       }
     },
     {
@@ -16,8 +16,8 @@
       "slug": "dior",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/dior.jpg",
-        "original": "/assets/images/brands/ancient/dior.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-2.png",
+        "original": "/assets/images/gi/brands/brand-2.png"
       }
     },
     {
@@ -26,8 +26,8 @@
       "slug": "gucci",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/gucci.jpg",
-        "original": "/assets/images/brands/ancient/gucci.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-3.png",
+        "original": "/assets/images/gi/brands/brand-3.png"
       }
     },
     {
@@ -36,8 +36,8 @@
       "slug": "levis",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/levis.jpg",
-        "original": "/assets/images/brands/ancient/levis.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-4.png",
+        "original": "/assets/images/gi/brands/brand-4.png"
       }
     },
     {
@@ -46,8 +46,8 @@
       "slug": "nike",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/nike.jpg",
-        "original": "/assets/images/brands/ancient/nike.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-5.png",
+        "original": "/assets/images/gi/brands/brand-5.png"
       }
     },
     {
@@ -56,8 +56,8 @@
       "slug": "puma",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/puma.jpg",
-        "original": "/assets/images/brands/ancient/puma.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-6.png",
+        "original": "/assets/images/gi/brands/brand-6.png"
       }
     },
     {
@@ -66,8 +66,8 @@
       "slug": "under-armour",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/under-armour.jpg",
-        "original": "/assets/images/brands/ancient/under-armour.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-7.png",
+        "original": "/assets/images/gi/brands/brand-7.png"
       }
     },
     {
@@ -76,8 +76,8 @@
       "slug": "zara",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/brands/ancient/zara.jpg",
-        "original": "/assets/images/brands/ancient/zara.jpg"
+        "thumbnail": "/assets/images/gi/brands/brand-8.png",
+        "original": "/assets/images/gi/brands/brand-8.png"
       }
     }
   ]
